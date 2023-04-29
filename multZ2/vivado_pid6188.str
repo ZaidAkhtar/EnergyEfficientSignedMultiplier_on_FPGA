@@ -1,0 +1,481 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 6188
+License: Customer
+
+Current time: 	Thu Apr 27 13:19:36 IST 2023
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x1024
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 8 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Rati Tandon
+User home directory: C:/Users/Rati Tandon
+User working directory: C:/Users/Rati Tandon/Downloads/multZ2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/Rati Tandon/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/Rati Tandon/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/Rati Tandon/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Rati Tandon/Downloads/multZ2/vivado.log
+Vivado journal file location: 	C:/Users/Rati Tandon/Downloads/multZ2/vivado.jou
+Engine tmp dir: 	C:/Users/Rati Tandon/Downloads/multZ2/.Xil/Vivado-6188-Rati_PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	189 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 703 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Rati Tandon\Downloads\multZ2\multZ2.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Rati Tandon/Downloads/multZ2=v1/multZ2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 102 MB (+104074kb) [00:00:10]
+// [Engine Memory]: 680 MB (+561519kb) [00:00:10]
+// [GUI Memory]: 108 MB (+984kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  3172 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 713 MB. GUI used memory: 50 MB. Current time: 4/27/23, 1:19:37 PM IST
+// Project name: multZ2; location: C:/Users/Rati Tandon/Downloads/multZ2; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // by (cl)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 731 MB (+17830kb) [00:00:19]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Power]", 25, false); // u (O, cl)
+// by (cl):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7a100tcsg324-1 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 50 MB. Current time: 4/27/23, 1:19:56 PM IST
+// [Engine Memory]: 1,070 MB (+317443kb) [00:00:31]
+// Xgd.load filename: C:/Xilinx/Vivado/2019.1/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.6s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,156 MB (+33573kb) [00:00:32]
+// Schematic: addNotify
+// [GUI Memory]: 126 MB (+13648kb) [00:00:34]
+// WARNING: HEventQueue.dispatchEvent() is taking  2328 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1067.855 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_run: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 1179.105 ; gain = 406.598 
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// a (cl): Report Power: addNotify
+selectComboBox(PAResourceOtoP.PowerApi_PROCESS_ACCOUNTS_FOR_MANUFACTURING_PROCESS, "maximum", 1); // e (c, a)
+selectTab(PAResourceTtoZ.XPowerSettingsDialog_TABBED_PANE, PAResourceTtoZ.XPowerSettingsDialog_SWITCHING, "Switching", 2); // i (a)
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_CHOOSE_INPUT_SIMULATION_ACTIVITY_FILE, (String) null); // q (al)
+setFileChooser("C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif");
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+// [GUI Memory]: 138 MB (+6137kb) [00:00:58]
+// 'dm' command handler elapsed time: 23 seconds
+// TclEventType: POWER_CNS_UPDATED
+// TclEventType: POWER_REPORT_STALE
+dismissDialog("Report Power"); // a (cl)
+// TclEventType: SDC_CONSTRAINT_ADD
+// by (cl):  Power Estimation : addNotify
+// Tcl Message: set_operating_conditions -process maximum 
+// Tcl Message: read_saif {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif} 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,218 MB. GUI used memory: 78 MB. Current time: 4/27/23, 1:20:31 PM IST
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. 
+// Tcl Message: INFO: [Power 33-167] Parsing SAIF file C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif INFO: [Power 33-177] SAIF annotation done from file C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif INFO: [Power 33-26] Design nets matched = 66 of 182 
+// Tcl Message: read_saif: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1718.793 ; gain = 533.031 
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: POWER_UPDATED
+// [Engine Memory]: 1,625 MB (+431507kb) [00:01:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  1036 ms.
+// Tcl Message: report_power -name {power_1} 
+// Tcl Message: Command: report_power -name power_1 36% of nets annotated Doing probabilistic computation for the remaining nets  
+// Tcl Message: 0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. report_power completed successfully 
+// Elapsed time: 11 seconds
+dismissDialog("Power Estimation"); // by (cl)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 372ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3999366 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4000041 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 74 MB. Current time: 4/27/23, 2:33:01 PM IST
+// Elapsed time: 4489 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cl)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// D (cl): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2483 ms.
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // L (E, D)
+// Elapsed time: 33 seconds
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // i (Q, D)
+// Elapsed time: 73 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (D)
+// [GUI Memory]: 147 MB (+1797kb) [01:17:51]
+// WARNING: HEventQueue.dispatchEvent() is taking  1011 ms.
+dismissDialog("Settings"); // D (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Power]", 26, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// a (cl): Report Power: addNotify
+// Elapsed time: 12 seconds
+selectTab(PAResourceTtoZ.XPowerSettingsDialog_TABBED_PANE, PAResourceTtoZ.XPowerSettingsDialog_POWER_SUPPLY, "Power Supply", 1); // i (a)
+// [GUI Memory]: 154 MB (+120kb) [01:18:08]
+selectTab(PAResourceTtoZ.XPowerSettingsDialog_TABBED_PANE, PAResourceTtoZ.XPowerSettingsDialog_ENVIRONMENT, "Environment", 0); // i (a)
+selectComboBox(PAResourceOtoP.PowerApi_PROCESS_ACCOUNTS_FOR_MANUFACTURING_PROCESS, "typical", 0); // e (c, a)
+selectComboBox(PAResourceOtoP.PowerApi_PROCESS_ACCOUNTS_FOR_MANUFACTURING_PROCESS, "maximum", 1); // e (c, a)
+selectTab(PAResourceTtoZ.XPowerSettingsDialog_TABBED_PANE, PAResourceTtoZ.XPowerSettingsDialog_SWITCHING, "Switching", 2); // i (a)
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+// 'dm' command handler elapsed time: 27 seconds
+dismissDialog("Report Power"); // a (cl)
+// Tcl Message: read_saif {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif} 
+// Tcl Message: INFO: [Power 33-167] Parsing SAIF file C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif INFO: [Power 33-177] SAIF annotation done from file C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif INFO: [Power 33-26] Design nets matched = 66 of 182 
+// by (cl):  Power Estimation : addNotify
+// TclEventType: POWER_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  1008 ms.
+// Tcl Message: report_power -name {power_2} 
+// Tcl Message: Command: report_power -name power_2 36% of nets annotated Doing probabilistic computation for the remaining nets  
+// Tcl Message: 0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. report_power completed successfully 
+dismissDialog("Power Estimation"); // by (cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  30603 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  56428307 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 93 MB. Current time: 4/28/23, 6:22:13 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  16590068 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 90 MB. Current time: 4/28/23, 10:58:45 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 91 MB. Current time: 4/28/23, 11:28:48 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 91 MB. Current time: 4/28/23, 11:58:50 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 91 MB. Current time: 4/28/23, 12:28:55 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  460163 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 91 MB. Current time: 4/28/23, 12:58:59 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  623212 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  24412446 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 91 MB. Current time: 4/28/23, 7:59:37 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 91 MB. Current time: 4/28/23, 8:29:41 PM IST
+// Elapsed time: 107721 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK (aH, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (F, cl)
+// PAPropertyPanels.initPanels (tb.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb (tb.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb (tb.v)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("tb.v", 330, 309); // cl (w, cl)
+selectCodeEditor("tb.v", 330, 297); // cl (w, cl)
+selectCodeEditor("tb.v", 290, 184); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_DONT_SAVE, "Don't Save"); // a (al)
+// e (cl):  Run Simulation : addNotify
+dismissDialog("Save Project"); // al (cl)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 41cb9c9d733e4fa99d0118fcf6275bf8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log" 
+// Tcl Message: Built simulation snapshot tb_behav 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2019.1 (64-bit)   **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019   **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source C:/Users/Rati -notrace couldn't read file "C:/Users/Rati": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Fri Apr 28 20:34:04 2023... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1775.824 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2019.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// PAPropertyPanels.initPanels (tb.v) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  1852 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 101 MB. Current time: 4/28/23, 8:34:19 PM IST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// Tcl Message: # open_saif "zv.saif" # set curr_xsim_wave_scope [current_scope] # current_scope /tb/DUT # log_saif [get_objects -r *] # current_scope $curr_xsim_wave_scope # unset curr_xsim_wave_scope # log_wave -r / # run 1000ns 
+// Tcl Message: $finish called at time : 5 ns : File "C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/sim_1/new/tb.v" Line 19 
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # close_saif 
+// Tcl Message: xsim: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1782.234 ; gain = 0.289 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:33 . Memory (MB): peak = 1782.234 ; gain = 6.410 
+// 'd' command handler elapsed time: 42 seconds
+// Elapsed time: 33 seconds
+dismissDialog("Run Simulation"); // e (cl)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 112 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// A (cl): Out of Date Design: addNotify
+dismissDialog("Save Project"); // al (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// a (cl): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // A (cl)
+// 'k' command handler elapsed time: 23 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Save Constraints"); // a (cl)
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aK (aH, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// al (cl): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// A (cl): Out of Date Design: addNotify
+dismissDialog("Save Project"); // al (cl)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// a (cl): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // A (cl)
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "test"); // Y (D, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// by (cl):  Save Constraints : addNotify
+// Tcl Message: file mkdir {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new} 
+// Tcl Message: close [ open {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc} w ] 
+// Tcl Message: add_files -fileset constrs_1 {{C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc}} 
+// Tcl Message: set_property target_constrs_file {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc} [current_fileset -constrset] 
+dismissDialog("Save Constraints"); // a (cl)
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints -force 
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Save Constraints"); // by (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri Apr 28 20:37:06 2023] Launched synth_1... Run output will be captured here: C:/Users/Rati Tandon/Downloads/multZ2/multZ2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 21 seconds
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 407ms to process. Increasing delay to 3000 ms.
+// ah (cl): Synthesis Completed: addNotify
+// Elapsed time: 104 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Power]", 25, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_POWER_ESTIMATION
+// a (cl): Report Power: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1582 ms.
+selectTab(PAResourceTtoZ.XPowerSettingsDialog_TABBED_PANE, PAResourceTtoZ.XPowerSettingsDialog_SWITCHING, "Switching", 2); // i (a)
+selectButton(PAResourceTtoZ.XPowerSettingsDialog_SAVE_THESE_SETTINGS_AND_RUN, "OK"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_RUN_POWER_ESTIMATION
+// 'dm' command handler elapsed time: 10 seconds
+dismissDialog("Report Power"); // a (cl)
+// Tcl Message: read_saif {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif} 
+// Tcl Message: INFO: [Power 33-167] Parsing SAIF file C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif INFO: [Power 33-177] SAIF annotation done from file C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif INFO: [Power 33-26] Design nets matched = 66 of 182 
+// by (cl):  Power Estimation : addNotify
+// TclEventType: POWER_UPDATED
+// Tcl Message: report_power -name {power_3} 
+// Tcl Message: Command: report_power -name power_3 36% of nets annotated Doing probabilistic computation for the remaining nets  
+// Tcl Message: 0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. report_power completed successfully 
+dismissDialog("Power Estimation"); // by (cl)
+// Elapsed time: 47 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cS, cl)
+// by (cl):  Reloading : addNotify
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 95 MB. Current time: 4/28/23, 8:39:59 PM IST
+// Engine heap size: 1,635 MB. GUI used memory: 96 MB. Current time: 4/28/23, 8:39:59 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  3151 ms.
+// Tcl Message: refresh_design 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_UPDATED
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 77 MB. Current time: 4/28/23, 8:40:02 PM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.2s
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3597 ms.
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc] Finished Parsing XDC File [C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 1804.500 ; gain = 3.668 
+dismissDialog("Reloading"); // by (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Language Templates]", 3, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a (cl): Language Templates: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1036 ms.
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Templates_search"); // u (f, a): TRUE
+// Elapsed time: 10 seconds
+setText("PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE_SEARCH_FIELD", "LUT"); // OverlayTextField (v, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Slice/CLB Primitives, LUTs, Reconfigurable LUT (CFGLUT5)]", 51, false); // i (O, a)
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Slice/CLB Primitives, LUTs, LUT6]", 47, false); // i (O, a)
+// Elapsed time: 143 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Slice/CLB Primitives, MUXFx]", 52); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Slice/CLB Primitives, MUXFx, MUXF8]", 56, false); // i (O, a)
+// Elapsed time: 52 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Slice/CLB Primitives, LUTs, LUT6]", 47, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Slice/CLB Primitives, MUXFx, MUXF8]", 56, false); // i (O, a)
+// Elapsed time: 51 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Slice/CLB Primitives, MUXFx, MUXF7]", 53, false); // i (O, a)
+// Elapsed time: 100 seconds
+selectButton(RDIResource.BaseDialog_CLOSE, "Close"); // a (a)
+dismissDialog("Language Templates"); // a (cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  57607259 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 104 MB. Current time: 4/29/23, 12:52:35 PM IST

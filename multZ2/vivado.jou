@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 27 13:19:21 2023
+# Process ID: 6188
+# Current directory: C:/Users/Rati Tandon/Downloads/multZ2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12328 C:\Users\Rati Tandon\Downloads\multZ2\multZ2.xpr
+# Log file: C:/Users/Rati Tandon/Downloads/multZ2/vivado.log
+# Journal file: C:/Users/Rati Tandon/Downloads/multZ2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.xpr}
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+set_operating_conditions -process maximum
+read_saif {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif}
+report_power -name {power_1}
+read_saif {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif}
+report_power -name {power_2}
+launch_simulation
+source tb.tcl
+file mkdir {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new}
+close [ open {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc}}
+set_property target_constrs_file {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.srcs/constrs_1/new/test.xdc} [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+read_saif {C:/Users/Rati Tandon/Downloads/multZ2/multZ2.sim/sim_1/behav/xsim/zv.saif}
+report_power -name {power_3}
+refresh_design

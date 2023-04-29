@@ -1,0 +1,20 @@
+`timescale 1ns / 1ps
+////////////////////////////////////////////////////////////////////////////////// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module comp_unit(
+input w,
+input x,
+input y,
+input z,
+input cin,
+output c,
+output s,
+output cout
+    );
+    wire stemp;
+    FullAdder up(y,z,x,stemp,c);
+    FullAdder down(w,stemp,cin,s,cout);
+    
+endmodule

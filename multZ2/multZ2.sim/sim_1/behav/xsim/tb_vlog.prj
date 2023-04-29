@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../multZ2.srcs/sources_1/new/Alut.v" \
+"../../../../multZ2.srcs/sources_1/new/Blut.v" \
+"../../../../multZ2.srcs/sources_1/new/FullAdder.v" \
+"../../../../multZ2.srcs/sources_1/new/PartProds.v" \
+"../../../../multZ2.srcs/sources_1/new/comp.v" \
+"../../../../multZ2.srcs/sources_1/new/comp_unit.v" \
+"../../../../multZ2.srcs/sources_1/new/row.v" \
+"../../../../multZ2.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
