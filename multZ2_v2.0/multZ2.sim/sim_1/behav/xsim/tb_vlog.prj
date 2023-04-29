@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../multZ2.srcs/sources_1/new/BEC3.v" \
+"../../../../multZ2.srcs/sources_1/new/BEC4.v" \
+"../../../../multZ2.srcs/sources_1/new/BEC5.v" \
+"../../../../multZ2.srcs/sources_1/new/BEC6.v" \
+"../../../../multZ2.srcs/sources_1/new/CSLA.v" \
+"../../../../multZ2.srcs/sources_1/new/FullAdder.v" \
+"../../../../multZ2.srcs/sources_1/new/PartProds.v" \
+"../../../../multZ2.srcs/sources_1/new/R2LUT.v" \
+"../../../../multZ2.srcs/sources_1/new/R2SE.v" \
+"../../../../multZ2.srcs/sources_1/new/RCA2.v" \
+"../../../../multZ2.srcs/sources_1/new/RCA3.v" \
+"../../../../multZ2.srcs/sources_1/new/RCA4.v" \
+"../../../../multZ2.srcs/sources_1/new/RCA5.v" \
+"../../../../multZ2.srcs/sources_1/new/compr.v" \
+"../../../../multZ2.srcs/sources_1/new/row.v" \
+"../../../../multZ2.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

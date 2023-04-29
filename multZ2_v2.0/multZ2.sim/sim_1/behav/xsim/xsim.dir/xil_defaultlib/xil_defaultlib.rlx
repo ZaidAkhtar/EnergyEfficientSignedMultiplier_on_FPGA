@@ -1,0 +1,28 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.sim/sim_1/behav/xsim/glbl.v,1680708678,verilog,,,,glbl,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sim_1/new/tb.v,1681374431,verilog,,,,tb,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/Alut.v,1680708676,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC3.v,,Alut,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC3.v,1681293000,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC4.v,,BEC3,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC4.v,1681293072,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC5.v,,BEC4,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC5.v,1681293100,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC6.v,,BEC5,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/BEC6.v,1681293124,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/CSLA.v,,BEC6,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/Bit16SA.v,1681373745,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/Bit1SA.v,,Bit16SA,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/Bit1SA.v,1681372777,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/Blut.v,,Bit1SA,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/Blut.v,1680708676,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/CSLA.v,,Blut,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/CSLA.v,1681326239,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/FullAdder.v,,CSLA,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/FullAdder.v,1680708676,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/PartProds.v,,FullAdder,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/PartProds.v,1681732674,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/R2LUT.v,,PartProds,,,,,,,,
+,,,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/R2SE.v,,R2LUT,,,,,,,,
+,,,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA2.v,,R2SE,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA2.v,1681292037,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA3.v,,RCA2,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA3.v,1681291987,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA4.v,,RCA3,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA4.v,1681292332,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA5.v,,RCA4,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/RCA5.v,1681292413,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/compr.v,,RCA5,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/SumProp.v,1681374297,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/comp.v,,SumProp,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/comp.v,1680708676,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/comp_unit.v,,comp,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/comp_unit.v,1680708676,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/compr.v,,comp_unit,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/compr.v,1681371477,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/row.v,,compr,,,,,,,,
+C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sources_1/new/row.v,1680708676,verilog,,C:/Users/Rati Tandon/Downloads/multZ2-20230405T153031Z-001/multZ2/multZ2.srcs/sim_1/new/tb.v,,row,,,,,,,,
